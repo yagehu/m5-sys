@@ -1,0 +1,16 @@
+[package]
+name = "m5-sys"
+version = "0.1.0"
+edition = "2024"
+links = "m5"
+license = "GPL-3.0-or-later"
+description = "Low-level bindings for the m5 utility from the gem5 simulator."
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.71"
+cc = "1.2"
+flate2 = "1.1"
+tar = "0.4"
+ureq = "3"
